@@ -95,10 +95,15 @@ main {
 }
 
 /*  end footer */
+#footer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    color: #A9A9A9;
+}
 
 .footer-created {
     margin-bottom: 1.2em;
-    color: var(--gray-footer);
+    color: var(--gray-2);
     text-align: center;
     font-weight: 500;
     font-size: .875em;
