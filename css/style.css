@@ -81,7 +81,7 @@ main {
 }
 
 .numbers-item--num,
-.numbers-item--desc {
+.numbers-item--txt {
     margin: 0;
 }
 
@@ -90,7 +90,7 @@ main {
     color: var(--gray-1);
 }
 
-.numbers-item--desc {
+.numbers-item--txt {
     color: var(--gray-3);
 }
 
@@ -117,7 +117,7 @@ main {
     box-shadow: 0 2.5px 7px rgba(190, 190, 190, 1);
     position: relative;
     bottom: 15px;
-    /* opacity: 90; */
+    opacity: 90;
     animation: showImage 1.2s ease-in;
     animation-fill-mode: forwards;
       
@@ -158,6 +158,26 @@ main {
     animation-delay: 2s;
 }
 /* end gallery*/
+
+
+/*  start footer */
+#footer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    color: #A9A9A9;
+}
+
+.footer-created {
+    margin-bottom: 1.2em;
+    color: var(--gray-2);
+    text-align: center;
+    font-weight: 500;
+    font-size: .875em;
+}
+a{
+    text-decoration: underline;
+}
+/*  end footer */
 
 
 /* star media queries*/
@@ -217,27 +237,9 @@ main {
     .header-address{font-size: 0 2em;}
     .numbers-item--middle{margin: 0 2em;}
     .numbers-item--num{font-size: 1.125em;}
-    .numbers-item--desc{font-size: .875em;}
+    .numbers-item--txt{font-size: .875em;}
 }
 
 /* end media queries*/
 
-
-/*  end footer */
-#footer{
-    font-family: 'Montserrat', sans-serif;
-    font-size: .9em;
-    color: #A9A9A9;
-}
-
-.footer-created {
-    margin-bottom: 1.2em;
-    color: var(--gray-2);
-    text-align: center;
-    font-weight: 500;
-    font-size: .875em;
-}
-a{
-    text-decoration: underline;
-}
 
